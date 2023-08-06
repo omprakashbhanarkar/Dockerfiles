@@ -4,4 +4,5 @@
 FROM Tomacat
 WORKDIR webapps
 COPY target/webapps.war .
-RUN rm -rf ROOT && mv webapps.war ROOt
+RUN rm -rf ROOT && mv webapps.war ROOT.war
+ENTRYPOINT [ "executable" ]
