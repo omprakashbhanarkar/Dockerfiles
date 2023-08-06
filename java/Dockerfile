@@ -2,3 +2,4 @@
 # Tomacat install using Docker file 
 
 FROM Tomacat
+WORKDIR webapps
