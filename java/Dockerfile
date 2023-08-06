@@ -3,4 +3,4 @@
 
 FROM Tomacat
 WORKDIR webapps
-COPY 
+COPY target/webapps.war .
