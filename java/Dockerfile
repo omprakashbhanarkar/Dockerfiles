@@ -4,4 +4,4 @@
 FROM Tomacat
 WORKDIR webapps
 COPY target/webapps.war .
-RUN rm -rf ROOT $$ 
+RUN rm -rf ROOT && 
