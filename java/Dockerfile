@@ -3,3 +3,4 @@
 
 FROM Tomacat
 WORKDIR webapps
+COPY . dest
