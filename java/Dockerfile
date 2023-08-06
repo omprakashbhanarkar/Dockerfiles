@@ -5,4 +5,4 @@ FROM Tomacat
 WORKDIR webapps
 COPY target/webapps.war .
 RUN rm -rf ROOT && mv webapps.war ROOT.war
-ENTRYPOINT [ "sh","/usr/local/tomacat/bin/s" ]
+ENTRYPOINT [ "sh","/usr/local/tomacat/bin/startup.sh" ]
